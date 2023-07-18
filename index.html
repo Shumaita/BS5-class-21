@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>class-21</title>
+    <!--bootstrap CDN link-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="style.css">
+  <style>
+    .box{
+          height:150px;
+        width:150px;
+        
+      }
+      p{
+          font-size: 1rem;
+          color:black;
+      }
+      #test{
+          font-size: 16px;
+      }
+    </style>
+</head>
+<body>
+   <div class="container">
+     <h2>OFFCANVAS</h2>
+     <p>Offcanvas is similar to modals (hidden by default and shown when activated), except that is often used as a sidebar navigation menu.</p>
+   
+     <p id="test">Offcanvas is similar to modals (hidden by default and shown when activated), except that is often used as a sidebar navigation menu.</p>
+   </div>
+   
+    <div class="container mt-3">
+        <button class="btn btn-warning" data-bs-target="#openoffcanvas" data-bs-toggle="offcanvas">
+            CLICK CLICK CLICK
+        </button>
+        <div class="offcanvas offcanvas-top" id="openoffcanvas" data-bs-scroll="true" data-bs-backdrop="false">
+            <div class="offcanvas-header" style="background-color: gray">
+                <h5 class="offcanvas-title">This is Offcanvas Title</h5>
+                <button class="btn-close" data-bs-dismiss="offcanvas"></button>
+            </div>
+            <div class="offcanvas-body">
+                <p>Offcanvas is a sidebar component that can be toggled via JavaScript to appear from the left, right, or bottom edge of the viewport.</p>
+            
+            <div class="dropdown">
+               <button class="btn btn-success dropdown-toggle" data-bs-toggle="dropdown">Dropdown Button</button>
+                <ul class="dropdown-menu" style="background-color: burlywood">
+                    <li><a href="#" class="dropdown-item">Home</a></li>
+                    <li><a href="#" class="dropdown-item">About</a></li>
+                    <li><a href="#" class="dropdown-item">Contact</a></li>
+                </ul>
+            </div>
+            </div>
+        </div>
+        <p>Bootstrap Offcanvas - free examples, templates and tutorial. Responsive Offcanvas sidebar built with Bootstrap 5. Examples include offcanvas width customization, double offcanvas example, left and right hidden menu and more.If you need a more advanced Offcanvas and more options, see our main SideNav documentation. This component is sometimes also referred to as Side Navbar, Sidebar or Drawer navigation.Offcanvas is a sidebar component that can be toggled via JavaScript to appear from the left, right, or bottom edge of the viewport. Buttons or anchors are used as triggers that are attached to specific elements you toggle, and data attributes are used to invoke our JavaScript.Offcanvas shares some of the same JavaScript code as modals. Conceptually, they are quite similar, but they are separate plugins.Similarly, some source Sass variables for offcanvas’s styles and dimensions are inherited from the modal’s variables.When shown, offcanvas includes a default backdrop that can be clicked to hide the offcanvas.Similar to modals, only one offcanvas can be shown at a time.Heads up! Given how CSS handles animations, you cannot use margin or translate on an .offcanvas element. Instead, use the class as an independent wrapping element.Bootstrap Offcanvas - free examples, templates and tutorial. Responsive Offcanvas sidebar built with Bootstrap 5. Examples include offcanvas width customization, double offcanvas example, left and right hidden menu and more.If you need a more advanced Offcanvas and more options, see our main SideNav documentation. This component is sometimes also referred to as Side Navbar, Sidebar or Drawer navigation.Offcanvas is a sidebar component that can be toggled via JavaScript to appear from the left, right, or bottom edge of the viewport. Buttons or anchors are used as triggers that are attached to specific elements you toggle, and data attributes are used to invoke our JavaScript.Offcanvas shares some of the same JavaScript code as modals. Conceptually, they are quite similar, but they are separate plugins.Similarly, some source Sass variables for offcanvas’s styles and dimensions are inherited from the modal’s variables.When shown, offcanvas includes a default backdrop that can be clicked to hide the offcanvas.Similar to modals, only one offcanvas can be shown at a time.Heads up! Given how CSS handles animations, you cannot use margin or translate on an .offcanvas element. Instead, use the class as an independent wrapping element.Bootstrap Offcanvas - free examples, templates and tutorial. Responsive Offcanvas sidebar built with Bootstrap 5. Examples include offcanvas width customization, double offcanvas example, left and right hidden menu and more.If you need a more advanced Offcanvas and more options, see our main SideNav documentation. This component is sometimes also referred to as Side Navbar, Sidebar or Drawer navigation.Offcanvas is a sidebar component that can be toggled via JavaScript to appear from the left, right, or bottom edge of the viewport. Buttons or anchors are used as triggers that are attached to specific elements you toggle, and data attributes are used to invoke our JavaScript.Offcanvas shares some of the same JavaScript code as modals. Conceptually, they are quite similar, but they are separate plugins.Similarly, some source Sass variables for offcanvas’s styles and dimensions are inherited from the modal’s variables.When shown, offcanvas includes a default backdrop that can be clicked to hide the offcanvas.Similar to modals, only one offcanvas can be shown at a time.Heads up! Given how CSS handles animations, you cannot use margin or translate on an .offcanvas element. Instead, use the class as an independent wrapping element.</p>
+
+   
+   <div class="box border border-5 rounded-top-circle mt-3">
+    
+   </div>
+    <div class="box border border-5 rounded-bottom-circle mt-3">
+       
+   </div>
+    </div>
+    
+    <!--Bootstrap JS CDN Link-->
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html>
